@@ -1,0 +1,175 @@
+<!-- The Assemblers: Majed Alasemi and Said El Kabraoui 11/12/2020-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Group Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/back.png" type="image/ico">  
+	<style>		
+@media only screen and (max-width:900px) {
+   #h1 {text-align: center;
+		color: black;
+		font-size: 25px;
+		font-weight: bold;
+  }
+  p {font-size: 20px;
+  }
+  .menu a {
+		  background-color: #c37c60;
+		  color: black;
+		  display: block;
+		  padding: 12px;
+		  text-decoration: none;
+		  text-align: center;
+	}
+	#current{
+			background-color: #ddd;
+	}
+}
+	#button1{text-align: center;
+	}
+
+	#header2{
+			display: block;
+	}
+	body{margin: 0% 5% 0% 5%;
+		background-image: url(./images/11.jpg);
+		background-repeat: repeat;
+	}		
+	main { background-color: #f3ce92;
+	}	
+	#h1 {text-align: center;
+		color:black;
+		font-size: 6vw;
+		font-weight: bold;
+	}
+	.menu {background-color: #c37c60;
+			padding: 10px;
+			margin: 0px;
+	}
+	.menu a {
+			text-decoration: none;
+			color: #333;
+			text-transform: uppercase;
+			font-size: 16px;
+			font-weight: bold;
+			font-family: 'Lato';
+			padding: 10px;
+	}
+	.menu a:hover {
+			background-color: #ddd;
+			color: black;
+	}
+	footer {font-size: 1.2em;
+			text-align: center;
+			clear: right;
+			padding: 0.2px;
+			background-color: #c37c60;
+	}	
+	.title {text-align: left;
+			font-weight: bold;
+			color: #00AB99;
+			margin-left: 15px;
+	}
+	#current {
+			background-color: #ddd;
+	}
+	p {     font-size: 18px;
+			font-family: Comic Sans MS, Century Gothic, Arial, sans-serif;
+			color: black;
+			margin-left: 15px;
+	}
+	.img {
+		  float: right;
+		  margin-left: 20px;
+		  max-width:100%;
+		  height:auto;
+	}
+	#tophead { text-align: center; 
+	}
+	.clearFloatRight  {
+			clear:right;}
+			li {font-size: 20px;
+	}	
+	#vid{margin : 0 15px;
+	}
+	#but{ text-align: center;
+	}
+	</style>
+</head>
+<body>
+<header>
+	<img id="header2" src="images/pyramids.jpg" alt="Tourism in Egypt" width="100%" height="400">
+</header>
+<div class="menu">
+		<a href="index.html" id="current">HOME</a>
+		<a href="wheretogo.html">PLACES TO VISIT</a>
+		<a href="whattodo.html">WHAT TO DO</a>
+		<a href="experiences.html">EXPERIENCES</a>
+		<a href="events.html">EVENTS</a>
+		<a href="contactus.html">CONTACT US</a>
+</div>
+
+<main>
+<br class="clearFloatRight">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("main").css("background-color", "#FAAC58");
+  });
+});
+</script>
+
+<div id="button1">
+	<button>Click Here to Change the Background Color</button>
+	
+</div>
+	
+	<h1 class="title">Tourism in Egypt</h1>
+	<img src="images/TourismEgypt.jpg" alt="Tourism in Egypt" title="Tourism in Egypt" class="img"> 
+	<p> Egypt is the home of the ancient Pharaohs. It's not all historic treasures, though. With vast tracts of desert, superb scuba diving, and the famed Nile River, there's something for everyone in Egypt.
+	<br>
+	Vist this page to see <a href="events.html" target="_blank">some events in Egypt</a>
+	<br>
+	<br>
+	Beach lovers head to the Sinai to soak up the sun, while archaeology fans will have a field day in Luxor.
+	<br>
+	<br>
+	Cairo is the megalopolis that can't be beaten for city slickers, while Siwa oasis and the southern town of Aswan offer a slice of the slow pace of the countryside.
+	<br>
+	<br>
+	Egypt has so much for travelers to see and do, it's the perfect country for a mix<br> of activities combining culture, adventure, and relaxation.
+	<br>
+	For more informtion about Egypt please visit <a href="https://en.wikipedia.org/wiki/Egypt" target="_blank">Wikipedia </a>
+	<br>
+	<br>
+	<h2 class="title">Some Tourist Attractions in Egypt</h2>
+	<ol>
+		<li>Pyramids of Giza</li>
+		<li>Islamic Cairo</li>
+		<li>Aswan</li>
+		<li>Egyptian Museum</li>
+		<li>Nile Cruising</li>
+	</ol>
+	<br>
+	<h2 class="title">See the following video</h2>
+		<iframe id="vid" width="420" height="315"
+		src="https://www.youtube.com/embed/mfxQy5A_tHs">		
+		</iframe>
+	<br>
+	<br>
+	<div id = "but">
+		<strong>This website shows you the best places to visit and the top tourist attractions in Egypt.</strong>
+		<br>
+		You can contact us for more informaton <a href="contactus.html">Contact us </a>
+		</p>
+	</div>
+	<br class="clearFloatRight">
+</main>
+
+
+<footer><p> Copyright &copy; The Assemblers 2020 </p></fotter>
+</body>
+</html>
